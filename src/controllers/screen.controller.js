@@ -2,7 +2,7 @@ const express = require('express');
 
 const Screen = require("../models/screen.model");
 
-const { postOne, getAll, getOne, updateOne, deleteOne } = require("./crud.controller");
+const { postOne, getAll, getOne, updateOne} = require("./crud.controller");
 
 const router = express.Router();
 
